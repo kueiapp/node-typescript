@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "rootDir": "./src",
+    "outDir": "./build",
+    // "watch": true,
+    "strict": true,
+    "lib": ["es6"]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "views",
+    "static",
+  ]
+}
